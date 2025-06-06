@@ -7,62 +7,62 @@ Victor Kenzo Mikado – RM560057
 
 Problema:
 
-Enchentes urbanas causadas por:
+-Enchentes urbanas causadas por:
 
-Drenagem ineficiente em bueiros
+-Drenagem ineficiente em bueiros
 
-Falta de monitoramento em tempo real
+-Falta de monitoramento em tempo real
 
-Alertas tardios à população
+-Alertas tardios à população
 
 Impactos:
 
-Risco à vida humana (afogamentos, doenças)
+-Risco à vida humana (afogamentos, doenças)
 
-Danos materiais (veículos, comércios, residências)
+-Danos materiais (veículos, comércios, residências)
 
-Interrupção do tráfego e serviços públicos
+-Interrupção do tráfego e serviços públicos
 
 Componentes Principais:
 
-Sensor ultrassônico (HC-SR04): Mede nível de água em cm
+-Sensor ultrassônico (HC-SR04): Mede nível de água em cm
 
-Servomotor: Simula bomba d'água (0°=ligado, 90°=desligado)
+-Servomotor: Simula bomba d'água (0°=ligado, 90°=desligado)
 
-LEDs indicadores: Vermelho (alerta) e Verde (normal)
+-LEDs indicadores: Vermelho (alerta) e Verde (normal)
 
-Conexão MQTT: Comunicação com Node-RED para dashboard
+-Conexão MQTT: Comunicação com Node-RED para dashboard
 
 Lógica de Funcionamento:
 
 Integrações Avançadas:
 
-API OpenWeather: Previsão de chuva em tempo real
+-API OpenWeather: Previsão de chuva em tempo real
 
-Node-RED: Dashboard para visualização remota
+-Node-RED: Dashboard para visualização remota
 
-Broker MQTT: Mosquitto para comunicação IoT
+-Broker MQTT: Mosquitto para comunicação IoT
 
 Instruções para Execução e Simulação
 
 Materiais Necessários:
 
-ESP32
+-ESP32
 
-Sensor HC-SR04
+-Sensor HC-SR04
 
-ServoMotor
+-ServoMotor
 
-LEDs (vermelho e verde)
+-LEDs (vermelho e verde)
 
-Resistor 220Ω para LEDs
+-Resistor 220Ω para LEDs
 
-Fonte de alimentação 5V
+-Fonte de alimentação 5V
 
 Passo a Passo:
 
 
-Instale as bibliotecas no Arduino IDE:
+-Instale as bibliotecas no Arduino IDE:
 
 #include <WiFi.h>
 #include <ArduinoJson.h>
@@ -72,9 +72,9 @@ Instale as bibliotecas no Arduino IDE:
 
 Simulação no Wokwi:
 
-Cole o código fornecido
+-Cole o código fornecido
 
-Adicione componentes virtuais:
+-Adicione componentes virtuais:
 
 Teste do Sistema:
 
@@ -84,8 +84,8 @@ Aproxime objeto do sensor ultrassônico (<20cm)
 
 Verifique:
 
-Servo move para 0°
+-Servo move para 0°
 
-LED vermelho acende
+-LED vermelho acende
 
-Mensagens MQTT são enviadas
+-Mensagens MQTT são enviadas
